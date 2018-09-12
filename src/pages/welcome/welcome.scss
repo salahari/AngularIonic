@@ -1,3 +1,23 @@
 page-welcome {
 
+#home-bg-container{
+    background-image: url('../../assets/imgs/home_bg.jpg');
+    .col{
+        text-align: center;
+        padding:12px;
+    }
+}
+#home-navbar{
+    .toolbar-background-md {
+        background: #2c2c40;
+    }
+    .toolbar-title {
+        color:white;
+        font-weight: 1;
+    }
+}
+
+
+
+
 }
