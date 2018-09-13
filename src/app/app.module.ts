@@ -8,6 +8,11 @@ import { ContactPage } from '../pages/contact/contact';
 import { HomePage } from '../pages/home/home';
 import { TabsPage } from '../pages/tabs/tabs';
 import { WelcomePage } from '../pages/welcome/welcome';
+import { EventDetailsPage } from '../pages/event-details/event-details';
+import { EventInvitePage } from '../pages/event-invite/event-invite';
+import { EventConclusionPage } from '../pages/event-conclusion/event-conclusion';
+import { EventTemplatePage } from '../pages/event-template/event-template';
+
 
 import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
@@ -16,6 +21,10 @@ import { SplashScreen } from '@ionic-native/splash-screen';
   declarations: [
     MyApp,
     WelcomePage,
+    EventDetailsPage,
+    EventInvitePage,
+    EventConclusionPage,
+    EventTemplatePage,
     AboutPage,
     ContactPage,
     HomePage,
@@ -29,6 +38,10 @@ import { SplashScreen } from '@ionic-native/splash-screen';
   entryComponents: [
     MyApp,
     WelcomePage,
+    EventDetailsPage,
+    EventInvitePage,
+    EventConclusionPage,
+    EventTemplatePage,
     AboutPage,
     ContactPage,
     HomePage,
