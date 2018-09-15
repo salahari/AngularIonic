@@ -3,7 +3,7 @@
         <ion-title>HOME</ion-title>
       </ion-navbar>
     </ion-header>
-    <ion-content (ionScroll)="scrollHandler($event)">
+    <ion-content>
        <ion-row middle id="home-bg-container">
           <ion-col col-12></ion-col>
           <ion-col col-12 style='color:yellowgreen; font-size: 25px'>invite your world</ion-col>
@@ -13,6 +13,14 @@
             <button ion-button color="secondary" (click)="contactEvent()">JOIN US</button></ion-col>
             <ion-col col-12></ion-col>
         </ion-row>
-       <ion-row>2</ion-row>
+       <ion-row>
+        <div class='home-row-container'>
+        <div class='home-row' style='color:black; font-size: 35px;font-weight: blod;'><span>CREATE YOUR EVENT</span></div>
+        <div class='home-row' style='color:blue; font-size: 25px;font-weight: blod;'><span>LET YOUR WORLD KNOW</span></div>
+        <div class='home-row'><div class='home-block'></div><div class='home-block'></div></div>
+        <div class='home-row'><button ion-button color="secondary">CREATE NOW</button></div>
+        <div class='home-row' id='home-comments-block'><img src="../../assets/imgs/home_comments.JPG"/></div>
+      </div><!--End of home-row-container-->
+       </ion-row>
        <ion-row>3</ion-row>
     </ion-content>

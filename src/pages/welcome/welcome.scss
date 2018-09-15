@@ -17,6 +17,25 @@ page-welcome {
     }
 }
 
+#home-comments-block{
+
+
+}
+.home-row-container{
+    width:100%;
+}
+.home-row{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+.home-block{
+    width: 20%;
+    height: 100px;
+    background-image: url('../../assets/imgs/home_where.jpg');
+    margin: 10px;
+
+}
 
 
 
