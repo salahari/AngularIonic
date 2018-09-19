@@ -15,4 +15,11 @@
 
 <ion-content padding>
 
+  <ion-item>
+   <ion-label floating color="primary">Username</ion-label>
+   <ion-input type="text" [(ngModel)]="userName" value=''></ion-input>
+  </ion-item>
+  <ion-col col-12>
+    <button ion-button round color="secondary" (click)="login()">Login</button>
+  </ion-col>
 </ion-content>
